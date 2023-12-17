@@ -13,9 +13,13 @@ class Assets {
   Assets._();
 
   static const AssetGenImage dash = AssetGenImage('assets/dash.png');
+  static const AssetGenImage dash1 = AssetGenImage('assets/dash1.png');
+  static const AssetGenImage dash2 = AssetGenImage('assets/dash2.png');
+  static const AssetGenImage dash3 = AssetGenImage('assets/dash3.png');
+  static const AssetGenImage dash4 = AssetGenImage('assets/dash4.png');
 
   /// List of all assets
-  List<AssetGenImage> get values => [dash];
+  List<AssetGenImage> get values => [dash, dash1, dash2, dash3, dash4];
 }
 
 class AssetGenImage {
